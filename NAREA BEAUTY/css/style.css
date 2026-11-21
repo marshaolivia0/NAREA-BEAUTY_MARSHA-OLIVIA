@@ -1,0 +1,995 @@
+
+/* =================================
+   NAREA BEAUTY - STYLE WEBSITE
+   Nama: Marsha Olivia
+================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #fffaf9;
+    color: #57464a;
+    line-height: 1.7;
+}
+
+/* HEADER */
+
+#marsha_header {
+    background-color: #fff0f2;
+    padding: 22px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-bottom: 1px solid #f3dadd;
+}
+
+.marsha_logo h1 {
+    color: #bd8293;
+    font-size: 27px;
+    letter-spacing: 3px;
+}
+
+.marsha_logo p {
+    color: #92747b;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.marsha_nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+.marsha_nav a {
+    text-decoration: none;
+    color: #765a61;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.marsha_nav a:hover {
+    color: #c47791;
+}
+
+/* HALAMAN BERANDA */
+
+#marsha_hero {
+    min-height: 510px;
+    padding: 65px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 45px;
+    background: linear-gradient(120deg, #fff0f2, #f9e5df);
+}
+
+.marsha_hero_text {
+    flex: 1;
+}
+
+.marsha_subtitle {
+    color: #bd8293;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.marsha_hero_text h2 {
+    font-size: 43px;
+    line-height: 1.25;
+    color: #8f5d6c;
+    margin-bottom: 20px;
+}
+
+.marsha_hero_text > p:not(.marsha_subtitle) {
+    color: #765f62;
+    margin-bottom: 28px;
+    max-width: 550px;
+}
+
+/* ILUSTRASI PRODUK */
+
+.marsha_hero_image {
+    flex: 1;
+    min-height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle, #fff 5%, #f3d8dc 75%);
+    border-radius: 45% 45% 25% 25%;
+}
+
+.marsha_product {
+    width: 190px;
+    height: 260px;
+    background: linear-gradient(145deg, #fff, #f7e5e8);
+    border: 2px solid #e9c7ce;
+    border-radius: 25px 25px 18px 18px;
+    box-shadow: 0 15px 30px #b78c9340;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.marsha_product span {
+    font-size: 35px;
+    color: #c47e91;
+}
+
+.marsha_product h3 {
+    color: #bd8293;
+    font-size: 23px;
+    letter-spacing: 3px;
+}
+
+.marsha_product p {
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.marsha_product small {
+    margin-top: 15px;
+    font-size: 9px;
+    color: #94757b;
+}
+
+/* TOMBOL */
+
+.marsha_button {
+    display: inline-block;
+    background-color: #c78398;
+    color: white;
+    padding: 12px 28px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.marsha_button:hover {
+    background-color: #a9677d;
+    transform: translateY(-3px);
+}
+
+/* BAGIAN PERKENALAN */
+
+#marsha_intro {
+    padding: 75px 12%;
+    text-align: center;
+    background-color: #fff;
+}
+
+#marsha_intro h2 {
+    color: #986878;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#marsha_intro > p:last-child {
+    max-width: 750px;
+    margin: auto;
+    color: #79676a;
+}
+
+/* BAGIAN PRODUK UNGGULAN */
+
+#marsha_feature {
+    padding: 65px 8%;
+    text-align: center;
+    background-color: #fff5f4;
+}
+
+#marsha_feature h2 {
+    color: #986878;
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+.marsha_cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-bottom: 35px;
+}
+
+.marsha_card {
+    background-color: white;
+    padding: 35px 22px;
+    border-radius: 18px;
+    box-shadow: 0 5px 20px #b78c9315;
+    transition: 0.3s;
+}
+
+.marsha_card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 10px 25px #b78c9330;
+}
+
+.marsha_card_icon {
+    font-size: 42px;
+    color: #c78398;
+    margin-bottom: 15px;
+}
+
+.marsha_card h3 {
+    color: #986878;
+    margin-bottom: 10px;
+}
+
+.marsha_card p {
+    color: #79676a;
+    font-size: 14px;
+}
+
+/* FOOTER */
+
+#marsha_footer {
+    background-color: #bd8293;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+#marsha_footer h3 {
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+}
+
+#marsha_footer p {
+    font-size: 13px;
+}
+
+/* TAMPILAN RESPONSIF */
+
+@media screen and (max-width: 900px) {
+    #marsha_header {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .marsha_nav {
+        justify-content: center;
+    }
+
+    #marsha_hero {
+        padding: 50px 6%;
+    }
+
+    .marsha_hero_text h2 {
+        font-size: 34px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #marsha_hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .marsha_hero_text h2 {
+        font-size: 30px;
+    }
+
+    .marsha_hero_image {
+        width: 100%;
+    }
+
+    .marsha_cards {
+        grid-template-columns: 1fr;
+    }
+
+    .marsha_nav {
+        gap: 12px;
+    }
+
+    .marsha_nav a {
+        font-size: 12px;
+    }
+}
+
+/* HALAMAN DETAIL PRODUK NAREA BEAUTY */
+
+.marsha_detail_intro {
+    background: #fff0f3;
+    text-align: center;
+    padding: 65px 20px;
+}
+
+.marsha_subtitle {
+    color: #bd7189;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 13px;
+}
+
+.marsha_detail_intro h2 {
+    color: #9f536c;
+    font-size: 34px;
+    margin: 15px 0;
+}
+
+.marsha_detail_intro > p:last-child {
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.8;
+    color: #725b62;
+}
+
+.marsha_detail_container {
+    max-width: 1150px;
+    margin: 50px auto;
+    padding: 0 25px;
+}
+
+.marsha_detail_section {
+    margin-bottom: 60px;
+}
+
+.marsha_detail_heading {
+    text-align: center;
+    color: #a95670;
+    margin: 30px 0 12px;
+    font-size: 27px;
+}
+
+.marsha_detail_description {
+    text-align: center;
+    color: #806b72;
+    line-height: 1.7;
+    margin: 0 auto 30px;
+    max-width: 700px;
+}
+
+.marsha_detail_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.marsha_detail_card {
+    background: #fff9fa;
+    border: 1px solid #f0d5de;
+    border-radius: 18px;
+    padding: 28px;
+    box-shadow: 0 5px 15px rgba(150, 90, 110, 0.08);
+    transition: 0.3s;
+}
+
+.marsha_detail_card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(150, 90, 110, 0.15);
+}
+
+.marsha_detail_number {
+    background: #f4d4de;
+    color: #96516a;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+.marsha_detail_card h3 {
+    color: #a95670;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.marsha_detail_category {
+    color: #bd8295;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.marsha_detail_card p {
+    color: #705e64;
+    line-height: 1.7;
+    font-size: 14px;
+}
+
+.marsha_detail_card h4 {
+    color: #a95670;
+    margin: 20px 0 8px;
+}
+
+.marsha_detail_card ul {
+    color: #705e64;
+    padding-left: 20px;
+    line-height: 1.8;
+    font-size: 14px;
+}
+
+.marsha_acne_card {
+    background: #fff1f4;
+}
+
+.marsha_detail_note {
+    background: #f9e6ec;
+    border-radius: 20px;
+    text-align: center;
+    padding: 40px 30px;
+    margin: 55px 0;
+}
+
+.marsha_detail_note h2 {
+    color: #a95670;
+    margin-bottom: 15px;
+}
+
+.marsha_detail_note p {
+    color: #705e64;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto 25px;
+}
+
+/* RESPONSIVE HALAMAN DETAIL */
+
+@media screen and (max-width: 850px) {
+    .marsha_detail_grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .marsha_detail_grid {
+        grid-template-columns: 1fr;
+    }
+
+    .marsha_detail_intro h2 {
+        font-size: 26px;
+    }
+
+    .marsha_detail_heading {
+        font-size: 23px;
+    }
+
+    .marsha_detail_card {
+        padding: 23px;
+    }
+}
+
+/* HALAMAN DAFTAR HARGA NAREA BEAUTY */
+
+.marsha_price_intro {
+    background: linear-gradient(135deg, #ffe4ec, #fff5f7);
+    text-align: center;
+    padding: 65px 20px;
+}
+
+.marsha_price_label {
+    color: #c46b88;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.marsha_price_intro h2 {
+    color: #a94f70;
+    font-size: 36px;
+    margin: 15px 0;
+}
+
+.marsha_price_intro p {
+    color: #76515f;
+    line-height: 1.8;
+    max-width: 650px;
+    margin: 10px auto;
+}
+
+.marsha_price_container {
+    max-width: 1150px;
+    margin: 45px auto;
+    padding: 0 25px;
+}
+
+.marsha_price_heading {
+    text-align: center;
+    color: #a94f70;
+    margin: 45px 0 25px;
+    font-size: 27px;
+}
+
+.marsha_price_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.marsha_price_card {
+    background-color: #fff7f9;
+    border: 1px solid #f3d2dc;
+    border-radius: 18px;
+    padding: 28px 22px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(180, 100, 130, 0.10);
+    transition: 0.3s;
+}
+
+.marsha_price_card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 9px 20px rgba(180, 100, 130, 0.18);
+}
+
+.marsha_price_icon {
+    display: inline-block;
+    background-color: #f7d5e0;
+    color: #a94f70;
+    padding: 12px 17px;
+    border-radius: 50%;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.marsha_price_card h3 {
+    color: #a94f70;
+    margin: 12px 0;
+    font-size: 20px;
+}
+
+.marsha_price_card p {
+    color: #765d67;
+    line-height: 1.7;
+    min-height: 65px;
+}
+
+.marsha_price_card strong {
+    display: block;
+    color: #bd5279;
+    font-size: 23px;
+    margin: 20px 0;
+}
+
+.marsha_price_acne {
+    background-color: #fff1f5;
+}
+
+.marsha_price_note {
+    background-color: #fff0f4;
+    border-left: 5px solid #d987a5;
+    border-radius: 10px;
+    padding: 22px;
+    margin-top: 45px;
+    color: #76515f;
+    line-height: 1.8;
+}
+
+.marsha_price_note h3 {
+    color: #a94f70;
+    margin-top: 0;
+}
+
+.marsha_price_back {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 35px 0;
+}
+
+/* TAMPILAN TABLET */
+
+@media screen and (max-width: 850px) {
+    .marsha_price_grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* TAMPILAN HP */
+
+@media screen and (max-width: 550px) {
+    .marsha_price_grid {
+        grid-template-columns: 1fr;
+    }
+
+    .marsha_price_intro h2 {
+        font-size: 27px;
+    }
+
+    .marsha_price_heading {
+        font-size: 23px;
+    }
+
+    .marsha_price_container {
+        padding: 0 15px;
+    }
+
+    .marsha_price_card {
+        padding: 25px 18px;
+    }
+}
+
+/* HALAMAN GALERI NAREA BEAUTY */
+
+.marsha_gallery_intro {
+    background: linear-gradient(135deg, #ffe4ec, #fff5f7);
+    text-align: center;
+    padding: 65px 20px;
+}
+
+.marsha_gallery_label {
+    color: #c46b88;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.marsha_gallery_intro h2 {
+    color: #a94f70;
+    font-size: 36px;
+    margin: 15px 0;
+}
+
+.marsha_gallery_intro p {
+    color: #76515f;
+    line-height: 1.8;
+    max-width: 700px;
+    margin: 10px auto;
+}
+
+.marsha_gallery_container {
+    max-width: 1150px;
+    margin: 45px auto;
+    padding: 0 25px;
+}
+
+.marsha_gallery_heading {
+    color: #a94f70;
+    text-align: center;
+    font-size: 27px;
+    margin: 45px 0 25px;
+}
+
+.marsha_gallery_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.marsha_gallery_card {
+    background: #fff7f9;
+    border: 1px solid #f3d2dc;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(180, 100, 130, 0.10);
+    transition: 0.3s;
+}
+
+.marsha_gallery_card:hover {
+    transform: translateY(-5px);
+}
+
+.marsha_gallery_card img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    display: block;
+}
+
+.marsha_gallery_card div {
+    padding: 18px;
+    text-align: center;
+}
+
+.marsha_gallery_card h3 {
+    color: #a94f70;
+    margin: 5px 0 10px;
+}
+
+.marsha_gallery_card p {
+    color: #765d67;
+    line-height: 1.7;
+}
+
+.marsha_gallery_quote {
+    background: #fff0f4;
+    border-radius: 18px;
+    padding: 30px;
+    margin: 50px 0;
+    text-align: center;
+    color: #76515f;
+    line-height: 1.8;
+}
+
+.marsha_gallery_quote h3 {
+    color: #a94f70;
+    font-size: 25px;
+}
+
+/* TAMPILAN TABLET */
+
+@media screen and (max-width: 850px) {
+    .marsha_gallery_grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* TAMPILAN HP */
+
+@media screen and (max-width: 550px) {
+    .marsha_gallery_grid {
+        grid-template-columns: 1fr;
+    }
+
+    .marsha_gallery_intro h2 {
+        font-size: 27px;
+    }
+
+    .marsha_gallery_heading {
+        font-size: 23px;
+    }
+
+    .marsha_gallery_container {
+        padding: 0 15px;
+    }
+
+    .marsha_gallery_card img {
+        height: 210px;
+    }
+}
+
+/* HALAMAN KONTAK NAREA BEAUTY */
+
+.marsha_contact_intro {
+    background: linear-gradient(135deg, #ffe4ec, #fff5f7);
+    text-align: center;
+    padding: 65px 20px;
+}
+
+.marsha_contact_label {
+    color: #c46b88;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.marsha_contact_intro h2 {
+    color: #a94f70;
+    font-size: 36px;
+    margin: 15px 0;
+}
+
+.marsha_contact_intro p {
+    color: #76515f;
+    line-height: 1.8;
+    max-width: 700px;
+    margin: 10px auto;
+}
+
+.marsha_contact_container {
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 0 25px;
+    display: grid;
+    grid-template-columns: 0.9fr 1.3fr;
+    gap: 30px;
+    align-items: start;
+}
+
+.marsha_contact_info,
+.marsha_contact_form_box {
+    background: #fff7f9;
+    border: 1px solid #f3d2dc;
+    border-radius: 18px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(180, 100, 130, 0.10);
+}
+
+.marsha_contact_info h2,
+.marsha_contact_form_box h2 {
+    color: #a94f70;
+    margin-top: 0;
+}
+
+.marsha_contact_info p {
+    color: #765d67;
+    line-height: 1.8;
+}
+
+.marsha_contact_item {
+    border-bottom: 1px solid #f0d5de;
+    padding: 12px 0;
+}
+
+.marsha_contact_item h3 {
+    color: #b65f80;
+    margin-bottom: 5px;
+}
+
+.marsha_contact_item p {
+    margin-top: 5px;
+}
+
+.marsha_contact_message {
+    background: #fff0f4;
+    padding: 18px;
+    border-radius: 12px;
+    margin-top: 25px;
+}
+
+.marsha_contact_message h3 {
+    color: #a94f70;
+}
+
+.marsha_contact_description {
+    color: #765d67;
+    margin-bottom: 25px;
+}
+
+.marsha_form_group {
+    margin-bottom: 20px;
+}
+
+.marsha_form_group label {
+    display: block;
+    color: #a94f70;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.marsha_form_group input,
+.marsha_form_group textarea {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #e9bdcc;
+    border-radius: 9px;
+    background: white;
+    color: #76515f;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.marsha_form_group input:focus,
+.marsha_form_group textarea:focus {
+    outline: none;
+    border-color: #c46b88;
+    box-shadow: 0 0 5px rgba(196, 107, 136, 0.25);
+}
+
+.marsha_form_group textarea {
+    resize: vertical;
+}
+
+.marsha_contact_button {
+    background: #c77f98;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.marsha_contact_button:hover {
+    background: #a94f70;
+}
+
+#marsha_form_result {
+    color: #a94f70;
+    font-weight: bold;
+    line-height: 1.6;
+    margin-top: 15px;
+}
+
+/* TAMPILAN TABLET */
+
+@media screen and (max-width: 850px) {
+    .marsha_contact_container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* TAMPILAN HP */
+
+@media screen and (max-width: 550px) {
+    .marsha_contact_intro h2 {
+        font-size: 27px;
+    }
+
+    .marsha_contact_container {
+        padding: 0 15px;
+        margin: 30px auto;
+    }
+
+    .marsha_contact_info,
+    .marsha_contact_form_box {
+        padding: 22px;
+    }
+}
+
+/* BACKGROUND BERANDA NAREA BEAUTY */
+
+#marsha_hero {
+    background-image:
+        linear-gradient(
+            rgba(255, 255, 255, 0.48),
+            rgba(255, 255, 255, 0.48)
+        ),
+        url('../images/narea-background.png');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+/* TULISAN BERANDA */
+
+.marsha_hero_text {
+    position: relative;
+    z-index: 2;
+    color: #49372F;
+    max-width: 550px;
+    padding: 40px;
+}
+
+.marsha_hero_text h2 {
+    color: #49372F;
+}
+
+.marsha_hero_text p {
+    color: #59483F;
+}
+
+/* MEMPERINDAH HERO BERANDA NAREA */
+
+#marsha_hero {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 600px;
+    padding: 60px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+/* MENGHILANGKAN ILUSTRASI PRODUK KANAN */
+
+.marsha_hero_image {
+    display: none;
+}
+
+/* MEMPERINDAH TULISAN */
+
+.marsha_hero_text {
+    max-width: 520px;
+    padding: 35px;
+    background: rgba(255, 250, 245, 0.82);
+    border-radius: 15px;
+    position: relative;
+    z-index: 2;
+}
+
+.marsha_hero_text h2 {
+    color: #49372F;
+    font-size: 38px;
+    line-height: 1.3;
+}
+
+.marsha_hero_text p {
+    color: #59483F;
+    line-height: 1.8;
+}

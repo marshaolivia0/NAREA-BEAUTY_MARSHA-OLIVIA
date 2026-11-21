@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - NARÉA BEAUTY</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+    <header id="marsha_header">
+        <div class="marsha_logo">
+            <h1>NARÉA BEAUTY</h1>
+            <p>Simple Care, Everyday Glow</p>
+        </div>
+
+        <nav class="marsha_nav">
+            <a href="index.html">Beranda</a>
+            <a href="tentang.html">Tentang</a>
+            <a href="produk.html">Produk</a>
+            <a href="detail-produk.html">Detail Produk</a>
+            <a href="harga.html">Daftar Harga</a>
+            <a href="galeri.html">Galeri</a>
+            <a href="kontak.html" class="marsha_active">Kontak</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="marsha_contact_intro">
+            <p class="marsha_contact_label">WE WOULD LOVE TO HEAR FROM YOU</p>
+            <h2>Hubungi Kami</h2>
+            <p>
+                Punya pertanyaan, saran, atau ingin mengetahui lebih
+                lanjut tentang NARÉA BEAUTY? Silakan kirim pesan melalui
+                formulir di bawah ini.
+            </p>
+        </section>
+
+        <section class="marsha_contact_container">
+
+            <div class="marsha_contact_info">
+                <h2>Mari Terhubung</h2>
+                <p>
+                    Kami senang dapat menerima pertanyaan dan masukan
+                    dari pengunjung website NARÉA BEAUTY.
+                </p>
+
+                <div class="marsha_contact_item">
+                    <h3>Nama Brand</h3>
+                    <p>NARÉA BEAUTY</p>
+                </div>
+
+                <div class="marsha_contact_item">
+                    <h3>Email</h3>
+                    <p>nareabeauty@gmail.com</p>
+                </div>
+
+                <div class="marsha_contact_item">
+                    <h3>Jam Layanan</h3>
+                    <p>Senin - Jumat, 09.00 - 16.00 WIB</p>
+                </div>
+
+                <div class="marsha_contact_message">
+                    <h3>Simple Care, Everyday Glow</h3>
+                    <p>
+                        Terima kasih telah mengunjungi NARÉA BEAUTY.
+                        Setiap pesan dan masukan sangat berarti bagi kami.
+                    </p>
+                </div>
+            </div>
+
+            <div class="marsha_contact_form_box">
+                <h2>Kirim Pesan</h2>
+                <p class="marsha_contact_description">
+                    Silakan isi formulir berikut dengan lengkap.
+                </p>
+
+                <form id="marsha_contact_form">
+
+                    <div class="marsha_form_group">
+                        <label for="marsha_nama">Nama Lengkap</label>
+                        <input
+                            type="text"
+                            id="marsha_nama"
+                            name="nama"
+                            placeholder="Masukkan nama lengkap"
+                            required>
+                    </div>
+
+                    <div class="marsha_form_group">
+                        <label for="marsha_email">Alamat Email</label>
+                        <input
+                            type="email"
+                            id="marsha_email"
+                            name="email"
+                            placeholder="contoh@email.com"
+                            required>
+                    </div>
+
+                    <div class="marsha_form_group">
+                        <label for="marsha_subjek">Subjek Pesan</label>
+                        <input
+                            type="text"
+                            id="marsha_subjek"
+                            name="subjek"
+                            placeholder="Masukkan subjek pesan"
+                            required>
+                    </div>
+
+                    <div class="marsha_form_group">
+                        <label for="marsha_pesan">Isi Pesan</label>
+                        <textarea
+                            id="marsha_pesan"
+                            name="pesan"
+                            rows="6"
+                            placeholder="Tuliskan pesan kamu di sini..."
+                            required></textarea>
+                    </div>
+
+                    <button type="submit" class="marsha_contact_button">
+                        Kirim Pesan
+                    </button>
+
+                    <p id="marsha_form_result" role="status"></p>
+
+                </form>
+            </div>
+
+        </section>
+    </main>
+
+    <footer id="marsha_footer">
+        <p>&copy; <span id="marsha_year"></span> NARÉA BEAUTY. Semua Hak Dilindungi.</p>
+        <p>Simple Care, Everyday Glow.</p>
+    </footer>
+
+</body>
+</html>
